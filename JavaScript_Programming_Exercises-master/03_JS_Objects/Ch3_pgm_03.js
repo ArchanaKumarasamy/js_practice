@@ -3,12 +3,18 @@
 var book;
 
 book = {
-    title : "The Hobbit",
+    title : "The Hobbit, or There and Back Again",
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
 console.log(book);
+book2 = {
+    title : "Bunch of old letters",
+    author : "Jawahar Lal Nehru",
+    published : 1945
+};
+console.log(book2);
 
 
 
