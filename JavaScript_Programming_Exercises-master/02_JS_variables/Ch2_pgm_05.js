@@ -1,6 +1,8 @@
 // Assigning text to variables
 
 var message;
+message = "This is the third message!";
+console.log(message);
 
 message = "Hello World!";
 console.log(message);
