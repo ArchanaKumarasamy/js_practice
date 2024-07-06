@@ -4,11 +4,11 @@ var score;
 score = 100;
 console.log("Your score was " + score);
 
-console.log("Great splat!!!");
-score = score + 50;
+console.log("you splated a kumquat!");
+score = score + 100;
 console.log("New score: " + score);
 
-console.log("Way to go!");
+console.log("Congratulations! Keep up the great work!");
 
 
 
