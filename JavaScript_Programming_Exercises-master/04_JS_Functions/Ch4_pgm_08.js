@@ -9,9 +9,15 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+displayMyMenu=function(){
+console.log("Welcome to My Menu:");
+	console.log("(1) Check status");
+	console.log("(2) Update settings");
+	console.log("(9) Exit My Menu");
+
+};
 displayMenu();
-
-
+displayMyMenu();
 
 /* Further Adventures
  *
