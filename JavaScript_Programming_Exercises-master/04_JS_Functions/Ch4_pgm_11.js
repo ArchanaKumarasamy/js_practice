@@ -41,7 +41,46 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var question1 = {
+    question: "What is the capital of France?",
+    options: ["A) Paris", "B) London", "C) Rome", "D) Berlin"],
+    answer: "A) Paris"
+};
 
+var question2 = {
+    question: "What is the largest planet in our solar system?",
+    options: ["A) Earth", "B) Mars", "C) Jupiter", "D) Saturn"],
+    answer: "C) Jupiter"
+};
+
+var question3 = {
+    question: "Who wrote 'To Kill a Mockingbird'?",
+    options: ["A) Harper Lee", "B) Mark Twain", "C) J.K. Rowling", "D) Jane Austen"],
+    answer: "A) Harper Lee"
+};
+
+var showQuizQuestion;
+
+showQuizQuestion = function () {
+    console.log("Question: " + question.question);
+    console.log("Options:");
+    for (var i = 0; i < question.options.length; i++) {
+        console.log(question.options[i]);
+    }
+    console.log("Answer: " + question.answer);
+    console.log("------------------------------");
+};
+
+var question;
+
+question = question1;
+showQuizQuestion();
+
+question = question2;
+showQuizQuestion();
+
+question = question3;
+showQuizQuestion();
 
 /* Further Adventures
  *
