@@ -10,6 +10,15 @@ showMessage = function () {
 };
 
 showMessage();
+message ="welcome";
+showMessage();
+
+var msg="this my page";
+showMessage=function(){
+	console.log(msg);
+};
+showMessage();
+
 
 
 
