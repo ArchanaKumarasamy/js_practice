@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,6 +23,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 ={
+  title: "Star Wars",
+  actors: " Carrie Fisher",
+  directors: "jack"
+
+}
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -39,6 +46,58 @@ console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+var event1 = {
+  title: "Team Meeting",
+  date: "2024-07-10",
+  time: "10:00 AM",
+  location: "Conference Room A"
+};
+
+var event2 = {
+  title: "Project Deadline",
+  date: "2024-07-15",
+  time: "5:00 PM",
+  location: "Office"
+};
+
+var event3 = {
+  title: "Birthday Party",
+  date: "2024-07-20",
+  time: "6:00 PM",
+  location: "Jane's House"
+};
+
+console.log("Event Information");
+console.log("------------------------------");
+console.log("Title: " + event1.title);
+console.log("Date: " + event1.date);
+console.log("Time: " + event1.time);
+console.log("Location: " + event1.location);
+console.log("------------------------------\n");
+
+console.log("Event Information");
+console.log("------------------------------");
+console.log("Title: " + event2.title);
+console.log("Date: " + event2.date);
+console.log("Time: " + event2.time);
+console.log("Location: " + event2.location);
+console.log("------------------------------\n");
+
+console.log("Event Information");
+console.log("------------------------------");
+console.log("Title: " + event3.title);
+console.log("Date: " + event3.date);
+console.log("Time: " + event3.time);
+console.log("Location: " + event3.location);
+console.log("------------------------------\n");
+
 
 
 
