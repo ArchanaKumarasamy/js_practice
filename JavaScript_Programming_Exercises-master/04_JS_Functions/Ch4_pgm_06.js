@@ -3,13 +3,19 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello\nsandy!");
 };
 
 sayHello();
 sayHello();
 sayHello();
-
+var printletters;
+printletters=function(){
+	var message = "Hello World!";
+    for (var i = 0; i < message.length; i++) {
+        console.log(message[i]);
+    }
+};
 
 
 /* Further Adventures
