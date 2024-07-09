@@ -17,8 +17,12 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
-
-movie = movie1;
+var movie2={
+  title: "Toy Story",
+    actors: "Tom Hanks, Tim Allen",
+    directors: "John Lasseter"
+};
+movie = movie2;
 
 showMovieInfo();
 
