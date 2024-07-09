@@ -25,6 +25,23 @@ showPlayerInfo = function () {
     console.log("------------------------------");
     console.log("");
 };
+showPlayerPlace = function () {
+    console.log(player.name + " is in " + player.place);
+};
+
+showPlayerHealth = function () {
+    console.log(player.name + " has health " + player.health);
+};
+
+showPlayerInfo = function () {
+    console.log(player.name);
+    console.log("------------------------------");
+    showPlayerPlace();
+    showPlayerHealth();
+    console.log("------------------------------");
+    console.log("");
+};
+
 
 player = player1;
 showPlayerInfo();
