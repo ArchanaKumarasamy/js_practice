@@ -2,6 +2,7 @@
 
 var findTotal;
 var displayMenu;
+var number1,number2;
 
 findTotal = function () {
 	result = number1 + number2;
@@ -13,6 +14,9 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
+findTotal();
+console.log("The total is: " + result);
+displayMenu();
 
 
 
