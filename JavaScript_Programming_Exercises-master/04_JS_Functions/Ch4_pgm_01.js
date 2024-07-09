@@ -1,6 +1,7 @@
 // Displaying an object's properties on the console
 
 var movie1;
+var movie2;
 
 movie1 = {
   title: "Inside Out",
@@ -8,11 +9,35 @@ movie1 = {
   directors: "Pete Doctor, Ronaldo Del Carmen"
 };
 
+movie2 = {
+  title: "outside out",
+  actors:"surya,SK",
+  directors:"manirathanam,bharathiraja"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
+var blogpost={
+  title: " out",
+  actors:"vijay,SK3",
+  directors:"shanker,bharathi"
+};
+console.log("Movie information for " + blogpost.title);
+console.log("------------------------------");
+console.log("Actors: " + blogpost.actors);
+console.log("Directors: " + blogpost.directors);
+console.log("------------------------------");
+
 
 
 
