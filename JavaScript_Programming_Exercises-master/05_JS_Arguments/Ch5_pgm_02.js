@@ -2,11 +2,16 @@
 
 var msg;
 var showMessage;
+var msg2;
+
 
 msg = "It's full of stars!";
+msg2 ="welcome";
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg);
+	console.log(msg2);
+	console.log(msg + " " + msg2);
 };
 
 showMessage();
