@@ -12,9 +12,40 @@ showSum(2.8, -5);
 showSum(56,74);
 
 var showProduct;
-showProduct(){
-	
-}
+
+showProduct = function (number1, number2) {
+	var total = number1 * number2;
+	console.log("The mulitiple is " + total);
+};
+
+showProduct(10, 23);
+showProduct(28, 12);
+showProduct(50,10);
+var showDifference;
+
+showDifference = function (number1, number2) {
+	var total = number1 - number2;
+	console.log("The difference is " + total);
+};
+
+showDifference(15, 12);
+showDifference(2.8, -5);
+showDifference(40,10);
+
+var showQuotient;
+
+showQuotient = function (number1, number2) {
+	var total = number1 / number2;
+	console.log("The quotient is " + total);
+};
+
+showQuotient(13, 3);
+showQuotient(25, 5);
+showQuotient(50,10);
+
+
+
+
 
 
 
