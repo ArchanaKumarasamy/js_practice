@@ -18,22 +18,21 @@ square(0.5);
 cube = function(numberTocube){
   var result;
   result = numberTocube * numberTocube;
-  console.log(numberTocube + " * " + numberTocube + " = " + result);
+  console.log(numberTocube + " * " + numberTocube + " * " + numberTocube + " = " + result);
 };
 cube(11);
 cube(12);
 cube(13);
 cube(14);
 
-squareRoot = function(numberTosquareRoot){
-  var result;
-  result = numberTosquareRoot * numberTosquareRoot;
-  console.log("numberTosquareRoot of " + numberTosquareRoot + " is " + result);
+squareRoot = function(number){
+  var result =Math.sqrt(number);
+  console.log("numberTosquareRoot of " + number + " is " + " * " + result);
 };
 squareRoot(9);
-squareRoot(15);
-squareRoot(17);
-squareRoot(6);
+squareRoot(25);
+squareRoot(144);
+squareRoot(66);
 
 
 

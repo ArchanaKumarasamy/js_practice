@@ -9,6 +9,13 @@ showSum = function (number1, number2) {
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56,74);
+
+var showProduct;
+showProduct(){
+	
+}
+
 
 
 
