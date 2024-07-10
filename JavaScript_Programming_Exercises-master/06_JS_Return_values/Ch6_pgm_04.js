@@ -7,12 +7,18 @@ add = function (number1, number2) {
 
 	return total;
 };
+var addThree;
 
-var sum = add(50, 23);
+addThree = function (number1, number2, number3) {
+    return add(number1, add(number2, number3));
+};
+
+
+var sum = add(50, 23,73);
 
 console.log(sum);
 
-
+var sum=addThree()
 
 /* Further Adventures
  *
