@@ -11,7 +11,8 @@ var showPlayerHealth = function (playerName, playerHealth) {
 var showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
-
+ 
+ 
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("");
 
