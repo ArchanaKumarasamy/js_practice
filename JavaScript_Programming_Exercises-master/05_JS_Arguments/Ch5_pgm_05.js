@@ -2,7 +2,7 @@
 
 var square;
 var cube;
-var sequareRoot;
+var squareRoot;
 
 square = function (numberToSquare) {
   var result;
@@ -25,10 +25,10 @@ cube(12);
 cube(13);
 cube(14);
 
-cube = function(numberTosequareRoot){
+squareRoot = function(numberTosquareRoot){
   var result;
-  result = numberTosequareRoot * numberTosequareRoot;
-  console.log(numberTosequareRoot + " * " + numberTosequareRoot + " = " + result);
+  result = numberTosquareRoot * numberTosquareRoot;
+  console.log("numberTosquareRoot of " + numberTosquareRoot + " is " + result);
 };
 squareRoot(9);
 squareRoot(15);
