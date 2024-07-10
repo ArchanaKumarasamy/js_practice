@@ -1,17 +1,40 @@
 // Using the square function
 
 var square;
+var cube;
+var sequareRoot;
 
 square = function (numberToSquare) {
   var result;
   result = numberToSquare * numberToSquare;
   console.log(numberToSquare + " * " + numberToSquare + " = " + result);
 };
-
 square(10);
 square(-2);
 square(1111);
 square(0.5);
+
+
+cube = function(numberTocube){
+  var result;
+  result = numberTocube * numberTocube;
+  console.log(numberTocube + " * " + numberTocube + " = " + result);
+};
+cube(11);
+cube(12);
+cube(13);
+cube(14);
+
+cube = function(numberTosequareRoot){
+  var result;
+  result = numberTosequareRoot * numberTosequareRoot;
+  console.log(numberTosequareRoot + " * " + numberTosequareRoot + " = " + result);
+};
+squareRoot(9);
+squareRoot(15);
+squareRoot(17);
+squareRoot(6);
+
 
 
 
