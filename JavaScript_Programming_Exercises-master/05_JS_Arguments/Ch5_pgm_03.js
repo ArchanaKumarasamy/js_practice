@@ -6,7 +6,10 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
-showMessage("It's full of stars!");
+showMessage("happy morning");
+
+showMessage("good morning");
+showMessage("happy sunday");
 
 
 
