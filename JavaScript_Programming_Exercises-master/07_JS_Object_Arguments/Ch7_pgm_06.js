@@ -6,7 +6,21 @@ var line = function (lineLength) {
     lineLength = Math.min(40, lineLength);
     return line.substr(0, lineLength);
   };
+
+  var spaces = function(spaceLength){
+    var spaceString = " ";
+    spaceLength = Math.max(0,spaceLength);
+    spaceLength = Math.min(40,spaceLength);
+    return spaceString.substr(0,spaceLength);
+  };
   
+  var emptyBox = function (width)  {
+    width = Math.max(0, width);
+    width = Math.min(40, width);
+    if (width < 2) {
+        console.log("Width must be at least 2 to draw a box.");
+        return;
+    };
   console.log(line(30));
   console.log(line(40));
   console.log(line(50));

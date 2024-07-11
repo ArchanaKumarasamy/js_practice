@@ -5,6 +5,23 @@ var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
 
+var getBig = function (str) {
+    return str.toUpperCase();
+};
+var getSmall = function (str) {
+    return str.toLowerCase();
+};
+
+console.log("Testing getBig function:");
+console.log(getBig("hello"));  
+console.log(getBig("World"));  
+console.log(getBig("JavaScript"));  
+
+console.log("Testing getSmall function:");
+console.log(getSmall("HELLO"));  
+console.log(getSmall("World"));  
+console.log(getSmall("JavaScript"));  
+
 
 
 /* Further Adventures
