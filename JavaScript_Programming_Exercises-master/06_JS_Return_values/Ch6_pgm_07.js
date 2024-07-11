@@ -3,10 +3,15 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    var prefixsuffix ="====";
+    var borderedName = "|\n| " + playerName + "\n|";
+    return prefixsuffix + " " + borderedName + " " + prefixsuffix;
+    
 };
 
-console.log(getPlayerName("Kandra"));
+console.log(getPlayerName("Kiki"));
+console.log(getPlayerName("Mahesha"));
+console.log(getPlayerName("jahver"));
 
 
 
