@@ -2,9 +2,12 @@
 
 var scores;
 var names;
+var akaScores;
 
-scores = [ 3, 1, 8, 2 ];
-names = [ "Kandra", "Dax", "Blinky" ];
+scores = [ 3, 1, 8, 2, 4];
+names = [ "Kandra", "Dax", "Blinky", "tom" ];
+akaScores=scores;
+console.log(akaScores);
 
 console.log(scores);
 console.log(names);
