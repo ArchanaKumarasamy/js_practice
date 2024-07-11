@@ -13,10 +13,9 @@ addThree = function (number1, number2, number3) {
     return add(number1, add(number2, number3));
 };
 
+var sum = addThree(50, 23,73);
 
-var sum = add(50, 23,73);
-
-console.log(sum);
+console.log(`sum of 50, 23, and 73 is ${sum}`);
 
 var sum=addThree()
 
