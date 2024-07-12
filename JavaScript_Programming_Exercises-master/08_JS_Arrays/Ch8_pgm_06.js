@@ -6,14 +6,30 @@ var removed;
 
 items.push(item);
 items.push("The Grand Canyon");
-items.push("Bondi Beach");
+items.push("pondi Beach");
 
-console.log(items);
 
 removed = items.pop();
-
 console.log(removed + " was removed");
 console.log(items.join(" and "));
+
+
+items.push("Erode");
+console.log(items.join(" and "));
+
+
+console.log(items.join(" and "));
+
+items[2] = "The Taj Mahal";
+console.log(items.join(" and "));
+
+items.push("covai","sathy");
+console.log(items.join(" and "));
+
+
+
+
+
 
 
 
