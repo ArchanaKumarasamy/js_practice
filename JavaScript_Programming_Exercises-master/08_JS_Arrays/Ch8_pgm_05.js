@@ -6,26 +6,31 @@ var getVisitorReport = function (visitorArray, dayInWeek) {
     "Tuesday",
     "Wednesday",
     "Thursday",
-    "Friday"
+    "Friday",
+    "saturday",
+    "sunday"
+
   ];
-	var index = dayInWeek - 1;
-	var visitorReport;
-
-	visitorReport = "There were ";
-  visitorReport += visitorArray[index];
-  visitorReport += " visitors ";
-	visitorReport += "on " + days[index];
-
-	return visitorReport;
+	var visitorArray = monthArray[week - 1];
+    return getVisitorReport(visitorArray, dayInWeek);
 };
 
-var visitors = [ 354, 132, 210, 221, 481 ];
 
-var report = getVisitorReport(visitors, 2);
+var week1 = [ 354, 132, 210, 221, 481, 152, 199 ];
+var week2 = [ 305, 120, 250, 190, 450, 200, 180 ];
+var week3 = [ 330, 145, 215, 225, 470, 160, 190 ];
+var week4 = [ 310, 130, 230, 200, 440, 180, 170 ];
 
-console.log(report);
+var month = [ week1, week2, week3, week4 ];
 
+var report = getMonthlyVisitorReport(month, 2, 5); 
+console.log(report); 
 
+var report = getMonthlyVisitorReport(month, 3, 1); 
+console.log(report); 
+
+var report = getMonthlyVisitorReport(month, 4, 7); 
+console.log(report); 
 
 /* Further Adventures
  *
