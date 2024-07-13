@@ -23,7 +23,30 @@ var displayQuestion = function (questionAndAnswer) {
     correctAnswer : "Paris"
   };
   
-  displayQuestion(question1);
+  var question2 ={
+    question :"Which type of JavaScript language is ___",
+    answers :[
+      "Object-Oriented",
+      "Object-Based",
+      "Assembly-language",
+      "High-level"
+    ],
+    correctAnswer : "Object-Based"
+   };
+
+   var question3 ={
+    question :"The function and var are known as:",
+    answers:[
+      "Keywords",
+      "Data types",
+       "Declaration statements",
+        "Prototypes"
+    ],
+    correctAnswer : "Declaration statements"
+   };
+   var questions = [question1, question2, question3];
+
+   questions.forEach(displayQuestion);
   
   
   
