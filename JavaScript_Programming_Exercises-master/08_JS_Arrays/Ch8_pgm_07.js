@@ -8,12 +8,25 @@ items = [
   "The Grand Canyon",
   "Bondi Beach"
 ];
+items.push("Eiffel Tower");
+items.push("Great Wall of China");
+items[items.length] = "abcdefghij";
+items[items.length] = "mnopqrs";
+
 
 showInfo = function (itemToShow) {
     console.log(itemToShow);
 };
+function totalletters(items){
+  var total = 0;
+    items.forEach(function(item) {
+        total += item.length;
+    });
+    return total;
+}
+console.log("total no.o letters:" + totalletters(items));
 
-items.forEach(showInfo);
+
 
 
 
