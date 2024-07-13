@@ -3,10 +3,10 @@
 var players;
 var showArguments;
 
-players = [ "Dax", "Jahver", "Kandra" ];
+players = [ "Dax", "Jahver", "Kandra", "som", "anu" ];
 
 showArguments = function (item, index, wholeArray) {
-  console.log("Item: " + item);
+  console.log("Item: " + wholeArray[index]);
   console.log("Index: " + index);
   console.log("Array: " + wholeArray);
 };
