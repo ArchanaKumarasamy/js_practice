@@ -84,7 +84,19 @@ var spacer = {
   var showPlayerInfo = function (player, character) {
     console.log(getPlayerInfo(player, character));
   };
-  
+  var showItem = function (player, itemNumber) {
+    if (itemNumber > 0 && itemNumber <= player.items.length) {
+        console.log(player.items[itemNumber - 1]);
+    } else {
+        console.log("Invalid item number");
+    }
+};
+
+
+var addItem = function (player, itemTitle) {
+    player.items.push(itemTitle);
+};
+
   
   // Create a player
   
