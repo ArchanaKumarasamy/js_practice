@@ -7,7 +7,9 @@ var guess = function (userNumber) {
     console.log("Well done!");
   }
 };
-
+guess(2);
+guess(10);
+guess(8);
 
 
 /* Further Adventures
