@@ -13,7 +13,20 @@ var getGuesser = function () {
   };
   
   var guess = getGuesser();
+  console.log(guess(35));
+
+  var between = function(min,max){
+    return Math,floor(Math,random() *(max-min+1)) + min;
+  };
+  console.log(between(1,5));
+  console.log(between(100,200));
+
+  var secret = Math.floor(Math.random() * (50 - 30 + 1)) + 30;
   
+  var between = function (min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
   
   
   /* Further Adventures
