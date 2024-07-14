@@ -7,7 +7,7 @@ var CalendarEvent = function (title, startDate, startTime, endTime) {
     this.endTime = endTime;
   
     this.showEvent = function () {
-        var dateString = [
+        var dataString = [
             this.startDate,
             ", from ",
             this.startTime,
@@ -15,8 +15,8 @@ var CalendarEvent = function (title, startDate, startTime, endTime) {
             this.endTime
         ].join("");
       
-        console.log(this.title);
-        console.log(dateString);
+        console.log(this.title + ":" + dataString);
+        
     };
 };
 
@@ -28,6 +28,15 @@ var calEvent = new CalendarEvent(
 );
 
 calEvent.showEvent();
+var calEvent2 = new CalendarEvent(
+    "Team Meeting",
+    "3/6/16",
+    "10.00am",
+    "11.00am"
+);
+
+
+calEvent2.showEvent(); 
 
 
 
