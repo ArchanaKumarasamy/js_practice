@@ -26,8 +26,36 @@ question1.addOption("Bordeaux");
 question1.addOption("F");
 question1.addOption("Paris");
 question1.addOption("Brussels");
-
+question1.addOption("marseille");
 question1.showQuestion();
+question1.showQuestion();
+
+var question2 = new QuizQuestion(
+    "What is the largest planet in our Solar System?",
+    "Jupiter"
+)
+
+question2.addOption("Earth");
+question2.addOption("Jupiter");
+question2.addOption("Saturn");
+question2.addOption("Mars");
+
+var question3 = new QuizQuestion(
+    "Who wrote 'To Kill a Mockingbird'?",
+    "Harper Lee"
+);
+
+question3.addOption("Mark Twain");
+question3.addOption("Harper Lee");
+question3.addOption("Jane Austen");
+question3.addOption("J.K. Rowling");
+
+question2.showQuestion();
+console.log(question2.answer);
+
+question3.showQuestion();
+console.log(question3.answer);
+
 
 
 
