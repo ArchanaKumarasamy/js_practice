@@ -177,6 +177,21 @@ var spacer = {
   player1.addItem("The Sword of Doom");
   
   player1.showInfo("=");
+
+  var player2 = new Player("Darek", 75);
+player2.place = kitchen;
+player2.addItem("a shiny spoon");
+player2.addItem("The Shield of Light");
+
+player1.showInfo("=");
+player2.showInfo("+");
+
+
+player1.dropItem();
+player2.dropItem();
+
+player1.showInfo("=");
+player2.showInfo("+");
   
   
   
