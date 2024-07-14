@@ -21,7 +21,13 @@ console.log(planet1.position);
 console.log(planet1.type);
 
 
-
+var planet2 =buildPlanet(
+    "mars",
+    4,
+    "terrestrial"
+);
+console.log(planet2.name);
+console.log(planet2.type);
 /* Further Adventures
  *
  * 1) Build a second planet,
