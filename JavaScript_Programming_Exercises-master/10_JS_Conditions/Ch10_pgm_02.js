@@ -9,7 +9,8 @@ var guess = function (userNumber) {
     console.log("Unlucky, try again.");
   }
 };
-
+guess(2);
+guess(8);
 
 
 /* Further Adventures
