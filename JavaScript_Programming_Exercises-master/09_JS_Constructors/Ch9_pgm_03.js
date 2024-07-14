@@ -12,6 +12,7 @@ var buildPlanet = function (name, position, type) {
         info += ": planet " + planet.position;
         info += " - " + planet.type;
         console.log(info);
+        console.log('-------------');
       };
 
     return planet;
@@ -20,7 +21,9 @@ var buildPlanet = function (name, position, type) {
 var planets = [
     buildPlanet( "Jupiter", 5, "Gas Giant" ),
     buildPlanet( "Neptune", 8, "Ice Giant" ),
-    buildPlanet( "Mercury", 1, "Terrestrial" )
+    buildPlanet( "Mercury", 1, "Terrestrial" ),
+    buildPlanet("Venus", 2, "Terrestrial"),     
+    buildPlanet("Saturn", 6, "Gas Giant")
 ];
 
 planets.forEach(function (planet) {
