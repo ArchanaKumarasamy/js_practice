@@ -13,8 +13,8 @@ var getGuesser = function () {
   };
   
   var guess = getGuesser();
-  
-  
+  guess (2);
+  guess(8);
   
   /* Further Adventures
    *
