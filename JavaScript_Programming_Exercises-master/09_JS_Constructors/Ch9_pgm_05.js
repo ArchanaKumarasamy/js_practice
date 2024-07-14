@@ -16,6 +16,9 @@ var Planet = function (name, position, type) {
     this.addMoon = function (moon) {
         this.moons.push(moon);
     };
+    this.removeMoon = function (){
+        return this.moons.pop();
+    };
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
@@ -24,7 +27,17 @@ planet.addMoon("Io");
 planet.addMoon("Europa");
 
 planet.showPlanet();
+var planet2 = new Planet("Xenon", 7, "Ice Giant");
 
+
+planet2.addMoon("Alpha");
+planet2.addMoon("Beta");
+planet2.addMoon("Gamma");
+
+planet2.showPlanet(); 
+
+planet2.removeMoon();
+planet2.showPlanet();
 
 
 /* Further Adventures
