@@ -24,6 +24,12 @@ var planet1 = buildPlanet(
 );
 
 planet1.showPlanet();
+var planet2  = buildPlanet(
+    "mars",
+    4,
+    "terrestrial",
+);
+planet2.showPlanet();
 
 
 
