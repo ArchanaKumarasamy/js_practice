@@ -4,7 +4,7 @@
 
 const doSomething = callback => {
     setTimeout(() => {
-      const skills = ['HTML', 'CSS', 'JS']
+      const skills = ['HTML', 'CSS', 'JS', 'Bootstrap']
       callback(false, skills)
     }, 2000)
   }
