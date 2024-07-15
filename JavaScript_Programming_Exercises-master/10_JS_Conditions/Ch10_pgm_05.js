@@ -7,7 +7,7 @@ var getGuesser = function () {
       if (userNumber === secret) {
         return "Well done!";
       } else {
-        if (userNumber > secret) {
+        if (userNumber < secret) {
           return "Too high!";
         } else {
           return "Too low!";
@@ -19,6 +19,12 @@ var getGuesser = function () {
   var guess = getGuesser();
   
   
+
+console.log(guess(2)); 
+console.log(guess(8)); 
+console.log(guess(5)); 
+
+
   
   /* Further Adventures
    *
