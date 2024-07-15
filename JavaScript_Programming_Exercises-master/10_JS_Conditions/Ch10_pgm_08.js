@@ -117,7 +117,7 @@ var getGame = function () {
           exitsString += ":" + newLine;
   
           Object.keys(exits).forEach(function (key) {
-              exitsString += "   - " + key;
+              exitsString += "-" + key;
               exitsString += newLine;
           });
   
