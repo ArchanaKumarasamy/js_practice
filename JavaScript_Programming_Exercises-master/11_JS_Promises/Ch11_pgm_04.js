@@ -9,7 +9,7 @@ const doPromise = new Promise((resolve, reject) => {
       } else {
         reject('Something wrong has happened')
       }
-    }, 2000)
+    }, 5000)
   })
   
   doPromise
